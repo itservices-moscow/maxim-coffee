@@ -122,9 +122,9 @@ const cookieInit = () => {
         shareTg = document.querySelector('.share-tg');
 
 
-    shareVk.setAttribute('href', `https://vk.com/share.php?url=https://newyear.maximcoffee.ru&url=https://newyear.maximcoffee.ru/img/share/default/${randomNumber}.jpg`);
-    shareTg.setAttribute('href', `https://t.me/share/url?url=https://newyear.maximcoffee.ru/img/share/default/${randomNumber}.jpg`);
-    shareWa.setAttribute('href', `https://wa.me/?text=https://newyear.maximcoffee.ru/img/share/default/${randomNumber}.jpg`);
+    shareVk.setAttribute('href', `https://vk.com/share.php?url=https://newyear.maximcoffee.ru&url=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg`);
+    shareTg.setAttribute('href', `https://t.me/share/url?url=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg`);
+    shareWa.setAttribute('href', `https://wa.me/?text=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg`);
 
     cookieResult.classList.add('hidden');
 

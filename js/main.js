@@ -122,9 +122,9 @@ const cookieInit = () => {
         shareTg = document.querySelector('.share-tg');
 
 
-    shareVk.setAttribute('href', `https://vk.com/share.php?url=https://newyear.maximcoffee.ru&url=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg`);
-    shareTg.setAttribute('href', `https://t.me/share/url?url=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg`);
-    shareWa.setAttribute('href', `https://wa.me/?text=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg`);
+    shareVk.setAttribute('href', `https://vk.com/share.php?url=https://newyear.maximcoffee.ru&title=Вот моё новогоднее предсказание от Maxim. А что ждёт тебя в новом году? %0A Узнай на https://newyear.maximcoffee.ru/&image=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg`);
+    shareTg.setAttribute('href', `https://t.me/share/url?url=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg %0A Вот моё новогоднее предсказание от Maxim. А что ждёт тебя в новом году? %0A Узнай на https://newyear.maximcoffee.ru/ ! `);
+    shareWa.setAttribute('href', `https://wa.me/?text=https://newyear.maximcoffee.ru/img/share/default/${randomNumber + 1}.jpg %0A Вот моё новогоднее предсказание от Maxim. А что ждёт тебя в новом году? %0A Узнай на https://newyear.maximcoffee.ru/ ! `);
 
     cookieResult.classList.add('hidden');
 

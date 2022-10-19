@@ -242,7 +242,12 @@ const cookieInit = () => {
 
     const boxItems = document.querySelectorAll('.box__cookie-item');
 
-    boxItems.forEach(element=>{
+    boxItems.forEach((element,index)=>{
+        let device = 'desktop';
+        if (window.innerWidth < 1100) device = 'mobile';
+
+        element.setAttribute('id', `${index+1}-${device}`);
+
         onTapOrClick(element,()=>{
             element.classList.add('draggable')
 
